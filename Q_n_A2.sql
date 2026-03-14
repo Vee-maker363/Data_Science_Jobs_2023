@@ -30,7 +30,50 @@ ON sd.skill_id = sjd.skill_id
 ORDER BY salary_year_avg DESC; 
 
 /*
+# Key Insights from the Data
 
+## Most In-Demand Skills (Across Top Roles)
+| Skill    | Frequency |
+| -------- | --------- |
+| SQL      | 398       |
+| Excel    | 256       |
+| Python   | 236       |
+| Tableau  | 230       |
+| R        | 148       |
+| SAS      | 126       |
+| Power BI | 110       |
 
+# Visualization Tools Are Critical
+| Tool     | Frequency |
+| -------- | --------- |
+| Tableau  | 230       |
+| Power BI | 110       |
+| Looker   | 49        |
+
+# Programming Skills Are Expected
+| Tool   | Frequency |
+| ------ | --------- |
+| Python | 236       |
+| R      | 148       |
+
+# Database & Data Infrastructure Skills
+| Tool       | Frequency |
+| ---------- | --------- |
+| Snowflake  | 37        |
+| SQL Server | 35        |
+| Oracle     | 37        |
+
+# Cloud Skills Are Emerging
+| Tool  | Frequency |
+| ----- | --------- |
+| Azure | 34        |
+| AWS   | 32        |
+
+# Business & Office Tools Still Matter
+| Tool       | Frequency |
+| ---------- | --------- |
+| PowerPoint | 58        |
+| Word       | 48        |
+| Sheets     | 32        |
 
 */
