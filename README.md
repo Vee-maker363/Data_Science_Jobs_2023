@@ -42,6 +42,8 @@ The most frequently occurring skills include:
 * **SAS**
 * **Power BI**
 
+   <img src="https://github.com/Vee-maker363/Data_Science_Jobs_2023/blob/main/Asset/Top_skill.png" width="100%">
+
 Among these, **SQL appears most frequently**, indicating that it is the most critical skill for data analysts working with databases and structured data.
 
 ### Key Insight
@@ -133,6 +135,8 @@ Examples of companies appearing in the dataset include:
 * Motional
 * Robert Half
 * Kelly Technology
+
+  <img src="https://github.com/Vee-maker363/Data_Science_Jobs_2023/blob/main/Asset/Top_company.png" width="100%">
 
 These organizations operate across industries such as technology, healthcare, finance, and consulting, indicating that **data analytics skills are valuable across multiple sectors**.
 
