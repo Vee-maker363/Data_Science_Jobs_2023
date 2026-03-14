@@ -4,11 +4,11 @@
 
 The rapid growth of data-driven decision-making has significantly increased the demand for data professionals across industries. Organizations increasingly rely on data analysts to extract insights from large datasets, support strategic decisions, and communicate findings through clear and actionable reports. As a result, understanding the technical skills and tools required in the data analytics job market has become essential for individuals seeking to enter or advance in this field.
 
-This report explores patterns in the skills associated with Data Analyst roles by examining job posting data from 2023. Through a series of SQL-based analyses, the project investigates skill demand, salary trends, and the technologies most commonly associated with remote and high-paying roles. The objective is to identify key insights that can inform career preparation and highlight the capabilities most valued in the current data analytics job market. The following sections offer insights and suggestions from analysing the data, each question (Business_Q_n_A1, Q_n_A2, Q_n_A3, Q_n_A4, Q_n_A5) is answered in a seperate file. For the query, see each file. 
+This report explores patterns in the skills associated with Data Analyst roles by examining job posting data from 2023. Through a series of SQL-based analyses, the project investigates skill demand, salary trends, and the technologies most commonly associated with remote and high-paying roles. The objective is to identify key insights that can inform career preparation and highlight the capabilities most valued in the current data analytics job market. The following sections offer insights and suggestions from analysing the data.
 
 ## 1. Insight from Q_n_A_1 and 2
 
-This report (for Business_Q_n_A1.sql) analyses the skills associated with the top highest-paying remote Data Analyst roles in 2023. The objective is to identify patterns in the required skills and extract insights that can guide job applicants in preparing for competitive remote data analyst positions. 
+This report, for [question one](Business_Q_n_A1.sql) [and question two](Q_n_A2.sql) analyses the skills associated with the top highest-paying remote Data Analyst roles in 2023. The objective is to identify patterns in the required skills and extract insights that can guide job applicants in preparing for competitive remote data analyst positions. 
 
 The dataset was obtained by filtering job postings for remote Data Analyst roles with non-null salary values and selecting the top highest salaries. The analysis focuses specifically on the **skills associated with these job postings**.
 
@@ -170,7 +170,7 @@ Job applicants who develop competence in these areas and demonstrate it through 
 
 **Skill Insights from Remote and General Data Analyst Roles (2023)**
 
-This analysis examines the skills associated with the top 10 highest-paying remote Data Analyst roles in 2023 and compares them with broader Data Analyst job postings to identify key competencies relevant for job applicants. The initial dataset contained multiple skills per job posting, resulting in over 2,500 skill records. The findings reveal clear patterns in the technical capabilities required for competitive data analyst positions.
+This [analysis](Q_n_A3.sql) examines the skills associated with the top 10 highest-paying remote Data Analyst roles in 2023 and compares them with broader Data Analyst job postings to identify key competencies relevant for job applicants. The initial dataset contained multiple skills per job posting, resulting in over 2,500 skill records. The findings reveal clear patterns in the technical capabilities required for competitive data analyst positions.
 
 Across the highest-paying remote roles, several skills appeared consistently: **SQL, Excel, Python, Tableau, R, SAS, and Power BI**. Among these, **SQL emerged as the most critical skill**, reflecting its importance for querying and managing structured data. Excel remains highly relevant for business analysis and reporting, while Python and R highlight the growing expectation that analysts possess programming capabilities for data cleaning, automation, and advanced analysis.
 
@@ -183,7 +183,7 @@ Overall, the findings suggest that high-paying remote roles rely on the same cor
 # Insight from Q_n_A_4
 **Analysis of Highest-Paying Skills for Remote Data Analyst Roles**
 
-This analysis examines the skills associated with the highest average salaries for remote Data Analyst roles. The results indicate that the most valuable skills extend beyond traditional data analysis tools and increasingly involve technologies related to Python-based analytics, big data platforms, and data engineering infrastructure.
+This [analysis](Q_n_A4.sql) examines the skills associated with the highest average salaries for remote Data Analyst roles. The results indicate that the most valuable skills extend beyond traditional data analysis tools and increasingly involve technologies related to Python-based analytics, big data platforms, and data engineering infrastructure.
 
 A significant portion of the highest-paying skills belong to the **Python data science ecosystem**, including **Pandas, NumPy, Scikit-learn, Jupyter, and PySpark**. These tools support tasks such as data manipulation, numerical analysis, machine learning, and large-scale data processing. Their presence suggests that analysts who possess programming skills, particularly in Python, can work with more complex datasets and advanced analytical workflows, which contributes to higher salaries.
 
@@ -207,7 +207,7 @@ Version control (Git-based platforms)
 
 **Analysis of Skills to Begin a Remote Data Analyst Career**
 
-This analysis compares two tables identifying the **top 10 skills relevant for remote Data Analyst roles**. The first table prioritises **skill demand**, while the second focuses on **the highest average salary associated with skills**. Because the results are limited to the **top 10 skills in each category**, the findings highlight key trends but should be interpreted as indicative rather than exhaustive.
+This [analysis](Q_n_A5.sql) compares two tables identifying the **top 10 skills relevant for remote Data Analyst roles**. The first table prioritises **skill demand**, while the second focuses on **the highest average salary associated with skills**. Because the results are limited to the **top 10 skills in each category**, the findings highlight key trends but should be interpreted as indicative rather than exhaustive.
 
 The demand-focused table shows that the most frequently requested skills are **SQL, Excel, Python, Tableau, R, and Power BI**. SQL appears most often, confirming its importance as the primary language for querying and managing structured data. Excel remains widely used for reporting and business analysis, while Python and R highlight the growing need for programming skills in modern analytics. Visualization tools such as Tableau and Power BI also appear prominently, reflecting the importance of communicating insights through dashboards and visual reports.
 
