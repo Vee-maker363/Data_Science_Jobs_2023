@@ -1,5 +1,7 @@
 # Data_Science_Jobs_2023
-![Analysis GUI](Gif\gif.gif)
+
+<img src="https://github.com/Vee-maker363/Data_Science_Jobs_2023/blob/main/Asset/gif.gif" width="1000">
+
 # Introduction
 
 The rapid growth of data-driven decision-making has significantly increased the demand for data professionals across industries. Organizations increasingly rely on data analysts to extract insights from large datasets, support strategic decisions, and communicate findings through clear and actionable reports. As a result, understanding the technical skills and tools required in the data analytics job market has become essential for individuals seeking to enter or advance in this field.
