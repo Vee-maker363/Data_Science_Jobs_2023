@@ -63,3 +63,24 @@ WHERE jpf.job_title_short = 'Data Analyst'
 GROUP BY sd.skills
 ORDER BY skill_count DESC
 LIMIT 5;
+
+/*
+# Comparison of Skill Demand: Remote vs All Data Analyst Roles
+| Skill    | Remote Count | All Roles Count |
+| -------- | ------------ | --------------- |
+| SQL      | 7,291        | 92,628          |
+| Excel    | 4,611        | 67,031          |
+| Python   | 4,330        | 57,326          |
+| Tableau  | 3,745        | 46,554          |
+| Power BI | 2,609        | 39,468          |
+
+# SQL Remains the Most Critical Skill
+| Dataset     | SQL Share |
+| ----------- | --------- |
+| Remote jobs | **32%**   |
+| All jobs    | **31%**   |
+
+SQL dominates both datasets, reinforcing that database
+querying is the most essential skill for data analysts, regardless of work location
+
+*/
