@@ -1,5 +1,4 @@
 --Question 4: What are the skills based on salary for the roles?
-
 /*
 - What is the average salary for each skill for the role (Data Analyst) that are remote?
 - And compare the result for the same role regardless of location.

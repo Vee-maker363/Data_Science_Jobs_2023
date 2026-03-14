@@ -2,7 +2,7 @@
 /*
 -   List the top-10 heighest paying jobs for the role (Data Analyst) that are remote.
     The output should include the Jop_id, job title, company name, salary, job_location, schedule type and job posted date.
-
+    
 -   Only output jobs with non-null salary values.
 */
 
@@ -23,6 +23,8 @@ AND salary_year_avg IS NOT NULL
 ORDER BY salary_year_avg DESC
 LIMIT 10;
 
+/* Other setions will answer the following questions:
+
 --Question 2: What are the skills required for the top-paying jobs?
 
 --Question 3: What are the most in-demand skills for the top-paying jobs?
@@ -30,3 +32,5 @@ LIMIT 10;
 --Question 4: What are the skills based on salary for the roles?
 
 --Question 5: What are the most optimal () skills to learn? 
+
+*/

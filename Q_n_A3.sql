@@ -1,5 +1,4 @@
 --Question 3: What are the most in-demand skills for the top-paying jobs?
-
 /*
 Write a query to list the top 5 most in-demand skills for the Data Analyst that are remote.
 And compare the result for the same role regardless of location.

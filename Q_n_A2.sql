@@ -1,6 +1,6 @@
 --Question 2: What are the skills required for the top-paying jobs?
 /*
--  Using the query from question 1, list the speifi skills required for the role. 
+-  Using the query from question 1, list the specific skills required for the role. 
 */
 
 WITH top_10 AS (
